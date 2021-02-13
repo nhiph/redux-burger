@@ -25,7 +25,7 @@ class Burger extends Component {
             // console.log(propsBurger, value);
             let breadMid = [];
             for(let i=0; i< value; i++){
-                breadMid.push(<div className={propsBurger} key={index}></div>)
+                breadMid.push(<div className={propsBurger} key={i}></div>)
             }
             return breadMid;
         })
